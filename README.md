@@ -58,7 +58,7 @@ ___
 
 See the section at the end of 03_Production_model_and_Eval.ipynb for more information.
 
-![OLSFeatBarplot](../project_2/assets/olsfeatbarplot.png)
+![OLSFeatBarplot](assets/olsfeatbarplot.png)
 
 The above graph indicates the 9 most impactful features in the set based on their absolute mean SHAP value calculated using all predictions. As we can see, overall quality and conditions in the middling range of 5-7 appear to be extremely influential across all predictions. 2nd floor area also has a significant positive impact on the prediction value, likely due to the fact that it simultaneously indicates additional space and the presence of a 2nd story on the property. Likewise, kitchen quality, the total above grade area, and the year built are quite important to our model's predictions.
 
@@ -66,7 +66,7 @@ The above graph indicates the 9 most impactful features in the set based on thei
 > For each feature ***y*** on our bar chart, we can expect the value of an individual prediction to increase by the magnitude of the corresponding bar displayed, all else held equal.
 >
 
-![OLSBeeswarmPlot](../project_2/assets/olsbeeswarm.png)
+![OLSBeeswarmPlot](assets/olsbeeswarm.png)
 
 Alternative view to the bar plot above.
 
